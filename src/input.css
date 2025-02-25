@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .banner{
+        background-image: url(img/imagemresort1.jpg);
+        height: 400px;
+    }
+}
+
+/* npx tailwindcss -i ./src/input.css -o ./src/output.css --watch */
