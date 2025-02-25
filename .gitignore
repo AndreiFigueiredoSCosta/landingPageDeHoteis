@@ -1,23 +1,24 @@
-# Node.js
-/node_modules/
-
 # Logs
 logs
 *.log
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Diretórios de build
-/dist
-/build
+node_modules
+dist
+dist-ssr
+*.local
 
-# Dependências do sistema
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-Thumbs.db
-
-# Arquivos de configuração do VSCode (se estiver usando)
-.vscode/
-
-# Arquivos de cache do npm
-.package-lock.json
-yarn.lock
-.pnpm-debug.log
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
